@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "terraserver",
+  "version": "1.0.0",
+  "name": "Terra-Server",
+  "description": "Allows Terra to work on the server. Temporary solution until Loom fixes multi-project builds.",
+  "authors": [
+    "dfsek"
+  ],
+  "contact": {
+    "homepage": "https://github.com/PolyhedralDev/Terra/wiki",
+    "sources": "https://github.com/PolyhedralDev/TerraFabricServer"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/terra/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "terraserver.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

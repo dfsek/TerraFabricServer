@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.dfsek.terraserver.fabric",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinGeneratorOptions"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "TerraFabricServer-refmap.json"
+}

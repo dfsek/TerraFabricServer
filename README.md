@@ -1,3 +1,5 @@
+# ! This is obsolete as of Terra 5.2.1 !
+
 # TerraFabricServer
 
 TerraFabricServer is a Fabric mod that allows servers to use Terra. 
